@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         View v = new View();
         Scanner sc = new Scanner(System.in);
+        Controller c = new Controller();
         int choice;
 
         do {
@@ -24,6 +25,7 @@ public class Main {
                 case 4:
                     System.out.println("Exist");
                     break;
+                    
 
             }
 
